@@ -33,4 +33,12 @@ body {
   height: 567px;
   border-radius: 20px;
   background-color: $VeryPaleBlue;
+  overflow: hidden;
+}
+
+.heroImg {
+  width: 100%;
+  height: 160px;
+  background: url("images/illustration-hero.svg") no-repeat;
+  background-size: contain;
 }
