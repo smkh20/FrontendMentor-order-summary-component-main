@@ -25,6 +25,10 @@ body {
   background-color: $PaleBlue;
 }
 
+p {
+  font-size: 16px;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -41,4 +45,34 @@ body {
   height: 160px;
   background: url("images/illustration-hero.svg") no-repeat;
   background-size: contain;
+}
+
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  //   align-items: center;
+  width: 247px;
+  height: 203px;
+}
+
+.cardText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 110px;
+  > h1 {
+    color: $DarkBlue;
+  }
+  > p {
+    text-align: center;
+    color: $DesaturatedBlue;
+  }
 }
