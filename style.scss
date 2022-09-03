@@ -1,1 +1,15 @@
 @use "reset";
+
+$PaleBlue: var(--PaleBlue);
+$BrightBlue: var(--BrightBlue);
+$VeryPaleBlue: var(--VeryPaleBlue);
+$DesaturatedBlue: var(--DesaturatedBlue);
+$DarkBlue: var(--DarkBlue);
+
+:root {
+  --PaleBlue: hsl(225, 100%, 94%);
+  --BrightBlue: hsl(245, 75%, 52%);
+  --VeryPaleBlue: hsl(225, 100%, 98%);
+  --DesaturatedBlue: hsl(224, 23%, 55%);
+  --DarkBlue: hsl(223, 47%, 23%);
+}
