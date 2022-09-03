@@ -37,11 +37,8 @@ p {
   overflow: hidden;
 }
 
-.heroImg {
-  width: 100%;
-  height: 160px;
-  background: url("images/illustration-hero.svg") no-repeat;
-  background-size: contain;
+img {
+  max-width: 100%;
 }
 
 .cardContent {
@@ -49,11 +46,13 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  height: 100%;
 }
 
 .cardInfo {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 247px;
   height: 203px;
 }
@@ -71,6 +70,37 @@ p {
 .cardText > p {
   text-align: center;
   color: var(--DesaturatedBlue);
+}
+
+.cardPlan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.planInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.planInfo :first-child {
+  color: var(--DarkBlue);
+}
+.planInfo :last-child {
+  color: var(--DesaturatedBlue);
+}
+
+a {
+  color: var(--BrightBlue);
+}
+
+button {
+  border: none;
+  width: 279px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: var(--BrightBlue);
+  color: var(--VeryPaleBlue);
 }
 
 /*# sourceMappingURL=style.css.map */
