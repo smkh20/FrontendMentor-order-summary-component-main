@@ -36,6 +36,12 @@ p {
   background-color: var(--VeryPaleBlue);
   overflow: hidden;
 }
+@media (min-width: 500px) {
+  .card {
+    width: 450px;
+    height: 697px;
+  }
+}
 
 img {
   max-width: 100%;
@@ -56,6 +62,12 @@ img {
   width: 247px;
   height: 203px;
 }
+@media (min-width: 500px) {
+  .cardInfo {
+    width: 305px;
+    height: 216px;
+  }
+}
 
 .cardText {
   display: flex;
@@ -71,6 +83,11 @@ img {
   text-align: center;
   color: var(--DesaturatedBlue);
 }
+@media (min-width: 500px) {
+  .cardText {
+    height: 120px;
+  }
+}
 
 .cardPlan {
   display: flex;
@@ -82,12 +99,18 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-right: 20px;
 }
 .planInfo :first-child {
   color: var(--DarkBlue);
 }
 .planInfo :last-child {
   color: var(--DesaturatedBlue);
+}
+@media (min-width: 500px) {
+  .planInfo {
+    margin-right: 60px;
+  }
 }
 
 a {
@@ -101,6 +124,11 @@ button {
   border-radius: 10px;
   background-color: var(--BrightBlue);
   color: var(--VeryPaleBlue);
+}
+@media (min-width: 500px) {
+  button {
+    width: 350px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
