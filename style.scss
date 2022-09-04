@@ -38,7 +38,7 @@ p {
   border-radius: 20px;
   background-color: $VeryPaleBlue;
   overflow: hidden;
-  @media(min-width: 500px){
+  @media (min-width: 500px) {
     width: 450px;
     height: 697px;
   }
@@ -63,7 +63,7 @@ img {
   justify-content: space-between;
   width: 247px;
   height: 203px;
-  @media(min-width: 500px){
+  @media (min-width: 500px) {
     width: 305px;
     height: 216px;
   }
@@ -82,7 +82,7 @@ img {
     text-align: center;
     color: $DesaturatedBlue;
   }
-  @media(min-width: 500px){
+  @media (min-width: 500px) {
     height: 120px;
   }
 }
@@ -104,13 +104,17 @@ img {
   :last-child {
     color: $DesaturatedBlue;
   }
-  @media(min-width: 500px){
+  @media (min-width: 500px) {
     margin-right: 60px;
   }
 }
 
 a {
   color: $BrightBlue;
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
 }
 
 button {
@@ -120,7 +124,19 @@ button {
   border-radius: 10px;
   background-color: $BrightBlue;
   color: $VeryPaleBlue;
-  @media(min-width: 500px){
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  @media (min-width: 500px) {
     width: 350px;
+  }
+}
+
+.cancel {
+  color: $DesaturatedBlue;
+  &:hover {
+    color: $DarkBlue;
+    cursor: pointer;
   }
 }

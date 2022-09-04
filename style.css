@@ -116,6 +116,10 @@ img {
 a {
   color: var(--BrightBlue);
 }
+a:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 
 button {
   border: none;
@@ -125,10 +129,22 @@ button {
   background-color: var(--BrightBlue);
   color: var(--VeryPaleBlue);
 }
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 @media (min-width: 500px) {
   button {
     width: 350px;
   }
+}
+
+.cancel {
+  color: var(--DesaturatedBlue);
+}
+.cancel:hover {
+  color: var(--DarkBlue);
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
